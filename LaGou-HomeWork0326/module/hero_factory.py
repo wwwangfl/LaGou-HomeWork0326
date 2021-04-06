@@ -13,4 +13,5 @@ class HeroFactory:
         elif name == "Police":
             return Police()
         else:
-            print(f"这个英雄:{name}不在英雄工厂")
+            # print(f"这个英雄:{name}不在英雄工厂")
+            raise Exception(f"这个英雄:{name}不在英雄工厂")
